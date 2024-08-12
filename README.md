@@ -1,18 +1,5 @@
 # ReviewMate REST API
 
-## Overview
-
-This project involves designing, implementing, and deploying a RESTful API for a business review site. The API supports full CRUD operations for managing businesses and reviews, with MySQL used for data storage. The API is deployed using a Docker container on a virtual machine created with Google Compute Engine (GCE), a part of Google Cloud Platform (GCP).
-
-## Key Features
-
-- **Resource Representation with Links**:  
-  All resource representations include complete URLs, making the API more user-friendly and navigable.
-- **Pagination**:  
-  The API supports paginated results for listing businesses, returning 3 businesses per page, with navigation links to subsequent pages.
-- **CRUD Operations**:  
-  The API provides comprehensive CRUD functionality for both business and review resources.
-
 ## Endpoints
 
 1. **Create a Business**  
